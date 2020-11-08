@@ -30,21 +30,18 @@
       box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
       box-sizing: border-box;
       border-radius: 4px;
-      cursor: pointer;
+      
       margin: 0;
       padding: 0;
-    
-      transform: translate(-50%,-95%);
+     
     }
     li{
-      display: block;
+     
       color: white;
       list-style: none;
       padding: 5px;
     }
-    li:last-child{
-      border-right: none;
-    }
+   
     
     .ajay{
       color: red;
@@ -54,22 +51,12 @@
       transform: rotate(45deg);
       border-right: none;
     }
-    #Cancel:active{
-      box-shadow: none;
-    }
-    .desc{
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-      color: white;
-    }
+ 
+   
 
-    @media (max-width: 760px){
-      .invisible{
-        display: none;
-      }
-    }
+  li:focus {
+    outline:none !important;
+  }
   
   </style>
 
